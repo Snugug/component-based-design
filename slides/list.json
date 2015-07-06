@@ -1,0 +1,50 @@
+[
+    "index.md",
+    [
+        "01-complex-to-simple/westinghouse-design-system.html",
+        "01-complex-to-simple/complexity-of-rwd.html",
+        "01-complex-to-simple/complex-to-simple.html",
+        "01-complex-to-simple/microsoft-homepage.html"
+    ],
+    [
+        "02-tiny-bootstraps/modern-deliverables.html",
+        "02-tiny-bootstraps/branding.html",
+        "02-tiny-bootstraps/components.html",
+        "02-tiny-bootstraps/layouts.html",
+        "02-tiny-bootstraps/strategy.html",
+        "02-tiny-bootstraps/tiny-bootstraps.html"
+    ],
+    [
+        "03-pe/progressive-enhancement.html",
+        "03-pe/pe-on-content.html",
+        "03-pe/pe-candy.html",
+        "03-pe/content-first.html"
+    ],
+    [
+        "04-graded/graded-components.html",
+        "04-graded/breakdown.html",
+        "04-graded/real-estate-listing.html",
+        "04-graded/html-core.html",
+        "04-graded/semantic-preview.html",
+        "04-graded/basic-styling.html",
+        "04-graded/styling-preview.html",
+        "04-graded/enhance-layout.html",
+        "04-graded/first-enhancement.html",
+        "04-graded/enhancing-beyond.html",
+        "04-graded/major-enhancement.html"
+    ],
+    [
+        "05-layouts/layouts.html",
+        "05-layouts/content-order.html",
+        "05-layouts/shit.html",
+        "05-layouts/sample-layout.html",
+        "05-layouts/layout-1.html"
+    ],
+    [
+      "06-fin/style-guide.html",
+      "06-fin/all-the-things.html",
+      "06-fin/fin.html"
+    ]
+
+
+]

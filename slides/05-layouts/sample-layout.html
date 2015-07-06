@@ -1,0 +1,15 @@
+<pre><code class="language-handlebars">&lt;div class="_grid"&gt;
+  &lt;article class="_grid--main"&gt;
+    {{% for listing in listings %}}
+      &lt;div class="_grid--item"&gt;
+        {{ listing }}
+      &lt;/div&gt;
+    {{% endif %}}
+  &lt;/article&gt;
+  &lt;aside class="_grid--secondary"&gt;
+    &lt;div class="_grid--featured"&gt;
+      {{ listing.featured }}
+    &lt;/div&gt;
+  &lt;/aside&gt;
+&lt;/div&gt;
+</code></pre>

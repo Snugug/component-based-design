@@ -1,0 +1,28 @@
+<pre class="small"><code class="language-handlebars">&lt;article class="listing"&gt;
+  &lt;section class="listing--details"&gt;
+    &lt;h2 class="listing--details-header"&gt;Property Details&lt;/h2&gt;
+    &lt;ul class="listing--amenities"&gt;
+      {{% for amenity in listing.amenities %}}
+        &lt;li class="listing--amenity"&gt;{{ amenity }}&lt;/li&gt;
+      {{% endfor %}}
+    &lt;/ul&gt;
+  &lt;/section&gt;
+
+  &lt;section class="listing--address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
+    &lt;h2 class="address--name" itemprop="name"&gt;{{ listing.name }}&lt;/h2&gt;
+    &lt;span class="address--street" itemprop="streetAddress"&gt;{{ listing.address.streetAddress }}&lt;/span&gt;
+    &lt;span class="address--locality" itemprop="addressLocality"&gt;{{ listing.address.addressLocality }}&lt;/span&gt;,
+    &lt;span class="address--region" itemprop="addressRegion"&gt;{{ listing.address.addressRegion }}&lt;/span&gt;
+    &lt;span class="address--postal-code" itemprop="postalCode"&gt;{{ listing.address.postalCode }}&lt;/span&gt;
+  &lt;/section&gt;
+
+
+  &lt;a class="listing--view" href="https://www.google.com/maps/place/{{ listing.address.streetAddress}},+{{listing.address.addressLocality}},+{{listing.address.addressRegion}}+{{listing.address.postalCode}}"&gt;View Map&lt;/a&gt;
+
+  {{% if listing.primary-image %}}
+    &lt;aside class="listing--preview"&gt;
+      &lt;img class="listing--image" src="{{listing.primary-image" alt="{{listing.name}}"&gt;
+    &lt;/aside&gt;
+  {{% endif %}}
+&lt;/article&gt;
+</code></pre>
